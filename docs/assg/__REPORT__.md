@@ -1,8 +1,8 @@
 ---
-title: 
-author:
-partner:
-date:
+title: Homework #4
+author: Jacob Marutani 
+partner: Khanh N.
+date: 2/23/2020
 ---
 
 **Note:** for the following design questions, show the truth table, boolean
@@ -19,6 +19,11 @@ Consider the museum security alarm function of exercise above, but for a museum 
 
 ## (5 pts)
 Two people, denoted using variables A and B, want to ride with you on your motorcycle. Write a Boolean equation that indicates that exactly one of the two people can come (A=1 means A can come, A=0 means A can’t come). Then use XOR to simplify your equation.
+
+F = AB' + A'B
+
+F = A ⊕ B
+
 
 ## (5 pts)
 Design a 3x8 decoder using AND, OR and NOT gates.
